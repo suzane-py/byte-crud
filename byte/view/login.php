@@ -35,7 +35,7 @@
                     <input class="inputs" type="password" name="senha" placeholder="Senha" required>
 
                     <div class="botoes">
-                        <button>Entrar</button>
+                        <button class="botao_entrar">Entrar</button>
                         <a class="botao_cadastrar" href="">Cadastrar</a>
                     </div>
                 </form>
