@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: #181818;
+}
+
+.area-cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background-color: #2d629e;
+    padding: 32px;
+    gap: 16px;
+}
+
+#area-logo:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#area-menu a{
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#area-menu a:hover{
+    color: #181818;
+    background-color: #2e9afe;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+}
+
+.area-principal{
+    width: 20%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #2d629e;
+}
+
+.area-principal img{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.area-login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color:#1e1e1e;
+}
+
+
+.area-login h2{
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao_cadastrar{
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #2e9afe;
+    cursor: pointer;
+    transition: all .8s;
+    margin-top: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 96px 48px 0px 48px;
+    gap: 8px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #181818;
+    border: 2px solid #181818;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
