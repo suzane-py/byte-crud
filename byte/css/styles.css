@@ -81,6 +81,18 @@ body{
     justify-content: space-around;
 }
 
+.botao_entrar{
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e9afe;
+    color: #fff;
+    cursor: pointer;
+    transition: all .8s;
+    margin-top: 20px;
+}
+
 .botao_cadastrar{
     padding: 16px;
     font-size: 16px;
