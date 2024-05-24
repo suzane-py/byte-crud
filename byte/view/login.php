@@ -22,13 +22,13 @@
 
     <main>
         <div class="container">
-            <div class="area-principal">
+            <div class="area_principal">
                 <h2>BYTE Solidário</h2>
                 <h4>Desenvolvimento Web FullStack</h4>
-                <img src="../img/caecomp.webp" alt="">
+                <img src="../img/caecomp.png" alt="">
             </div>
 
-            <div class="area-login">
+            <div class="area_login">
                 <h2>LOGIN</h2>
                 <form class="formulario" method="POST" action="login.php">
                     <input class="inputs" type="text" name="login" placeholder="Login" required>
